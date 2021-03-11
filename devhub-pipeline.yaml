@@ -32,3 +32,6 @@ repoType: Deployable service
 release:
     targetChartFile: admission-webhook-server
     dockerized: true
+    "on":
+        branches:
+            - devhub-*
